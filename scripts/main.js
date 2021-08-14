@@ -54,7 +54,7 @@ function disable_buttons() {
 }
 
 function runalgo() {
-    disable_buttons();
+    enable_buttons();
 
     this.classList.add("butt_selected");
     switch (this.innerHTML) {
